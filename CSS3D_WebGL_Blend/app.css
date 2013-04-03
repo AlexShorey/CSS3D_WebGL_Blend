@@ -31,6 +31,30 @@ body
     -webkit-transform-style: preserve-3d;
 }
 
+#dCam {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+}
+
+#dObj {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+    background-color: rgba(0, 255, 33, 1);
+    width: 25px;
+    height: 25px;
+}
+
+#glid {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
 span {
     font-style: italic
 }
